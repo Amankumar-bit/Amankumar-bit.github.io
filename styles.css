@@ -236,6 +236,11 @@ input[type=text]{
   #registration{
     width:406.9px;
   }
+
+  
+  #reg-innercontent{
+    width:82%;
+  }
 }
 @media(max-width:600px){
   
@@ -259,6 +264,10 @@ animation:animate 1s linear infinite;
   #registration{
     top:120px;
   }
+  
+  #reg-innercontent{
+    width:82%;
+  }
   #registration-logo{
     
     background-image: url("images/logo4_opt\(1\).jpg");
@@ -267,5 +276,33 @@ animation:animate 1s linear infinite;
 
 }
 @media(max-width:480px){
-  
+  #header{
+    background-image: url("images/wave3.png");
+    animation:animate 1s linear infinite;
+      }
+    
+      #registration{
+        width:350.9px;
+      }
+      #registration-logo{
+        height:15%;
+        width:90px;
+    
+      }
+      #reg-innercontent{
+        width:82%;
+      }
+      #logo-1{
+        visibility: hidden;
+        
+      }
+      #registration{
+        top:120px;
+      }
+      #registration-logo{
+        
+        background-image: url("images/logo4_opt\(1\).jpg");
+      }
+     
+     
 }
