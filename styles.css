@@ -232,7 +232,10 @@ input[type=text]{
   #logo-1{
     visibility: unset;
   }
-  
+
+  #registration{
+    width:406.9px;
+  }
 }
 @media(max-width:600px){
   
